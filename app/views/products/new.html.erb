@@ -1,0 +1,5 @@
+<h1>New product</h1>
+<%= render "form", product: @product %>
+<%= form_with model: @product do |form| %>
+  <%= link_to "Cancel", products_path %>
+<% end %>
